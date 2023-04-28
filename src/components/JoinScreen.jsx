@@ -8,7 +8,12 @@ const JoinScreen = ({ start }) => {
                     Come and take this awesome engineering quiz and get hired
                     after.
                </p>
-               <button onClick={start}>Start</button>
+               <button
+                    onClick={start}
+                    className="px-3 py-2 bg-black text-white cursor-pointer rounded-sm text-xl"
+               >
+                    Start
+               </button>
           </div>
      );
 };

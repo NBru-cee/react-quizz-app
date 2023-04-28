@@ -7,7 +7,7 @@ const App = () => {
      const [isQuizStarted, setIsQuizStarted] = useState(false);
 
      return (
-          <div className="bg-[#f5f5f5]">
+          <>
                <Navbar />
                <div className="quiz-container">
                     {isQuizStarted ? (
@@ -16,7 +16,7 @@ const App = () => {
                          <JoinScreen start={() => setIsQuizStarted(true)} />
                     )}
                </div>
-          </div>
+          </>
      );
 };
 
