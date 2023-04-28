@@ -9,16 +9,17 @@ const QuizScreen = ({ retry }) => {
           new Array(QuestionList.length)
      );
      const isQuestionEnd = currentQuestionIndex === QuestionList.length;
+
      const calculateResult = () => {
           let correct = 0;
-          QuestionList.forEach((question) => {
+          QuestionList.forEach((question, index) => {
                if (question.correctOptionIndex == markedAnswers[index]) {
                     correct++;
                }
           });
           return {
                total: QuestionList.length,
-               correct,
+               correct: correct,
                percentage: Math.trunc((correct / QuestionList.length) * 100),
           };
      };

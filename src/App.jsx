@@ -9,7 +9,7 @@ const App = () => {
      return (
           <>
                <Navbar />
-               <div className="quiz-container">
+               <div className="relative m-auto w-[95%] mt-[50px] max-w-[650px] min-h-[350px] bg-white border shadow-md shadow-black">
                     {isQuizStarted ? (
                          <QuizScreen retry={() => setIsQuizStarted(false)} />
                     ) : (
