@@ -4,7 +4,10 @@ const JoinScreen = ({ start }) => {
      return (
           <div className="join-screen">
                <h2>Join Quiz</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+               <p>
+                    Come and take this awesome engineering quiz and get hired
+                    after.
+               </p>
                <button onClick={start}>Start</button>
           </div>
      );

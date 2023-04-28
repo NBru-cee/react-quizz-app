@@ -56,7 +56,12 @@ const Question = ({ question, totalQuestions, currentQuestion, setAnswer }) => {
                     </div>
                </div>
                <div className="control">
-                    <button onClick={gotoNextQuestion}>Next</button>
+                    <button
+                         onClick={gotoNextQuestion}
+                         className="px-2 py-3 bg-[#111] text-white cursor-pointer rounded-sm text-lg"
+                    >
+                         Next
+                    </button>
                </div>
           </div>
      );
