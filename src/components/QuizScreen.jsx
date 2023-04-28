@@ -8,7 +8,7 @@ const QuizScreen = ({ retry }) => {
      const [markedAnswers, setMarkedAnswers] = useState(
           new Array(QuestionList.length)
      );
-     const isQuestionEnd = currentQuestionIndex === QuestionList.length;
+     const isQuestionEnd = currentQuestionIndex == QuestionList.length;
 
      const calculateResult = () => {
           let correct = 0;
@@ -31,7 +31,7 @@ const QuizScreen = ({ retry }) => {
                     <Question
                          question={QuestionList[currentQuestionIndex]}
                          totalQuestions={QuestionList.length}
-                         currentQuestion={currentQuestionIndex}
+                         currentQuestion={currentQuestionIndex + 1}
                          setAnswer={(index) => {
                               setMarkedAnswers((arr) => {
                                    let newArr = [...arr];

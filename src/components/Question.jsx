@@ -10,10 +10,12 @@ const Question = ({ question, totalQuestions, currentQuestion, setAnswer }) => {
           if (timer.current) {
                clearTimeout(timer.current);
           }
-          flushSync(() => {
-               setAnswer(selectedOption);
-          });
+          const answer = selectedOption;
           setSelectedOption(null);
+          const updateAnswer = () => setAnswer(answer);
+          requestAnimationFrame(() => {
+               flushSync(updateAnswer);
+          });
      };
 
      useEffect(() => {
@@ -45,7 +47,7 @@ const Question = ({ question, totalQuestions, currentQuestion, setAnswer }) => {
                               return (
                                    <div
                                         className={
-                                             index === selectedOption
+                                             index == selectedOption
                                                   ? "option active"
                                                   : "option"
                                         }
