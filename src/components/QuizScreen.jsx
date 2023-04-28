@@ -38,7 +38,7 @@ const QuizScreen = ({ retry }) => {
                                    newArr[currentQuestionIndex - 1] = index;
                                    return newArr;
                               });
-                              setCurrentQuestionIndex[currentQuestionIndex + 1];
+                              setCurrentQuestionIndex(currentQuestionIndex + 1);
                          }}
                     />
                )}

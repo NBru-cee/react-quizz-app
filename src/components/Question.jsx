@@ -60,7 +60,7 @@ const Question = ({ question, totalQuestions, currentQuestion, setAnswer }) => {
                </div>
                <div className="px-[20px] py-[10px] flex justify-end border-t border-t-[#eee]">
                     <button
-                         onClick={() => gotoNextQuestion()}
+                         onClick={gotoNextQuestion}
                          className="px-3 py-2 bg-[#111] text-white cursor-pointer rounded-sm text-xl"
                     >
                          Next
