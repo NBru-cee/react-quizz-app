@@ -7,10 +7,15 @@ const QuizResults = ({ result, retry }) => {
                     Result: {result.percentage}%
                </h2>
                <p>
-                    Selected {result.correct} correct options out of
-                    {result.total}questions.
+                    Selected {result.correct} correct options out of{" "}
+                    {result.total} questions.
                </p>
-               <button onClick={retry}>Retry</button>
+               <button
+                    onClick={retry}
+                    className="px-3 py-2 bg-[#111] text-white cursor-pointer rounded-sm text-xl"
+               >
+                    Retry
+               </button>
           </div>
      );
 };

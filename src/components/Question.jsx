@@ -45,7 +45,7 @@ const Question = ({ question, totalQuestions, currentQuestion, setAnswer }) => {
                               return (
                                    <div
                                         className={
-                                             index == selectedOption
+                                             index === selectedOption
                                                   ? "option active"
                                                   : "option"
                                         }
