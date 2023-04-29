@@ -7,7 +7,7 @@ const QuizResults = ({ result, retry }) => {
                     Result: {result.percentage}%
                </h2>
                <p>
-                    Selected {result.correct} correct options out of{" "}
+                    Selected {result.correct} correct options out of
                     {result.total} questions.
                </p>
                <button

@@ -14,7 +14,7 @@ const QuizScreen = ({ retry }) => {
           let correct = 0;
           QuestionList.forEach((question, index) => {
                if (question.correctOptionIndex == markedAnswers[index]) {
-                    correct++;
+                    correct + 1;
                }
           });
           return {

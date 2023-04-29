@@ -10,38 +10,43 @@
           "correctOptionIndex": "2"
      },
      {
-          "title": "Most modern TV's draw power even if turned off. The circuit the power is used in does",
+          "title": "Ikinyabiziga cyose cyangwa ibinyabiziga bigenda bigomba kugira",
           "options": [
-               "Sound",
-               "Remote Control",
-               "Color balance",
-               "Hight Voltage"
+               "Umuyobozi",
+               "Umuherekeza",
+               "A na B ni ibisubizo by'ukuri",
+               "Nta gisubizo cy'ukuri kirimo"
           ],
-          "correctOptionIndex": "1"
+          "correctOptionIndex": "0"
      },
      {
-          "title": "Which motor is not suitable for use as a DC machine",
+          "title": "Ijambo 'akayira' bivuga inzira nyabagendwa ifunganye yagenewe gusa:",
           "options": [
-               "Permanent magnet motor",
-               "Series motor",
-               "Squirrel cage motor",
-               "Synchronous motor"
+               "Abanyamaguru",
+               "Ibinyabiziga bigendera ku biziga bibiri",
+               "A na B ni ibisubizo by'ukuri",
+               "Nta gisubizo cy'ukuri kirimo"
           ],
           "correctOptionIndex": "2"
      },
      {
-          "title": "'INI' extension refers usually to what kind of file?",
+          "title": "Umurongo uciyeho uduce umenyesha ahegereye umurongo ushobora kuzuzwa n'uturanga gukata tw'ibara ryera utwo turanga cyerekezo tumenyesha:",
           "options": [
-               "Image file",
-               "System file",
-               "Hypertext related file",
-               "None of these"
+               "Igisate cy'umuhanda abayobozi bagomba gukurikira",
+               "Ahegereye umurongo  ukomeje",
+               "Igabanurwa  ry'umubare w'ibisate by'umuhanda mu cyerekezo bajyamo",
+               "A na C nibyo"
           ],
-          "correctOptionIndex": "1"
+          "correctOptionIndex": "2"
      },
      {
-          "title": "Which consists of two plates separated by a dielectric and can store a charge?",
-          "options": ["Capacitor", "Inductor", "Transistor", "Relay"],
-          "correctOptionIndex": "0"
+          "title": "Ahantu ho kugendera mu muhanda herekanwa n'ibimenyetso bimurika ibinyabiziga ntibishobora kuhagenda:",
+          "options": [
+               "Biteganye",
+               "Ku murongo umwe",
+               "A na B nibyo",
+               "Nta gisubizo cy'ukuri kirimo"
+          ],
+          "correctOptionIndex": "3"
      }
 ]

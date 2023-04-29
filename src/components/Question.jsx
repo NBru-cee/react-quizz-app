@@ -31,7 +31,7 @@ const Question = ({ question, totalQuestions, currentQuestion, setAnswer }) => {
           <div className="question">
                <div className="progress-bar w-0 h-1" ref={progressBar}></div>
                <div className="my-[20px] mx-0 text-center text-[15px] text-[#555]">
-                    <b>{currentQuestion}</b> of <b>{totalQuestions}</b>
+                    <b>{currentQuestion - 1}</b> of <b>{totalQuestions - 1}</b>
                </div>
                <div className="px-[40px] py-[20px]">
                     <div className="title">
